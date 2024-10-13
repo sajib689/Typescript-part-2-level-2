@@ -11,4 +11,6 @@ function kgToGm (param: string | number | undefined) {
 }
 
 const result = kgToGm(100) as number
+const result2 = kgToGm('1000') as string
 console.log(result)
+console.log(result2)
