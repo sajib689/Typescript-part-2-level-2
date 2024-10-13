@@ -10,4 +10,9 @@ const names: GenericArray<string> = ['kuddus', 'rahima']
 
 const usersDetails: GenericArray<{}> = [{name: 'sajib'}]
 
-console.log(relationTwo)
+interface Crush<T> {
+    name: string,
+    husband: T,
+}
+
+const crushDetails: Crush<boolean> = {name: 'sajib', husband:false}
