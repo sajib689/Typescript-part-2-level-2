@@ -33,4 +33,4 @@ const getAllData = async () => {
     console.log(result)
     return result
 }
-console.log(getAllData())
+getAllData()
